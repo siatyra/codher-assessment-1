@@ -1,0 +1,21 @@
+Script started on Thu Aug 19 21:01:58 2021
+bash-3.2$ mkdir folder1
+bash-3.2$ mkdir folder2
+bash-3.2$ touch file1.txt
+bash-3.2$ touch file2.txt
+bash-3.2$ touch file3.txt
+bash-3.2$ mv file1.txt folder1
+bash-3.2$ mv file2.txt folder2
+bash-3.2$ cd folder1
+bash-3.2$ ls
+file1.txt
+bash-3.2$ pwd
+/Users/tyraanglin/dev/folder1
+bash-3.2$ cd dev
+bash: cd: dev: No such file or directory
+bash-3.2$ cd ../
+bash-3.2$ rmr  r   -r file       file3.txt
+bash-3.2$ exit
+exit
+
+Script done on Thu Aug 19 21:04:14 2021
